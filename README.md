@@ -1,5 +1,20 @@
 # html-conform
 
+> **Dieses Repository ist stillgelegt (24.09.2026).** Das Crate lebt weiter, aber
+> die Quelle ist jetzt das Monorepo
+> **[casoon/barrierlab](https://github.com/casoon/barrierlab)** — dort liegt es
+> unter `crates/html-conform/`, mit der vollständigen Historie dieses
+> Repositorys und zusammen mit den sechs Paketen, die es benutzt: `html5-parser`,
+> `csp-parse`, `media-query-parse`, `xpath-eval`, `relax-ng`,
+> `schematron-engine`. Die harten Versionspins zwischen ihnen sind damit weg.
+>
+> - **crates.io bleibt unverändert.** 0.3.0 ist der erste Release aus barrierlab.
+> - **Doku:** <https://casoon.github.io/barrierlab/docs/html-conform/> — die
+>   Projektseite hier leitet dorthin weiter.
+> - **Änderungen und Fehler** gehören nach barrierlab. Hier wird nichts mehr gebaut.
+>
+> Der Text unten beschreibt den Stand bei der Stilllegung.
+
 **Website and documentation:** [casoon.github.io/html-conform](https://casoon.github.io/html-conform/)
 
 A Rust library for HTML5 specification conformance checking — validated against the [Nu Html Checker (vnu)](https://validator.github.io/validator/)'s differential test corpus (0 false positives, 99.98 % accuracy across 4,655 fixtures), without a JVM, subprocesses, or HTTP network requests. Embeddable directly into any Rust application, CLI, or web service.
